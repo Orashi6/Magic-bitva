@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101220;
+}
+
+.container {
+    max-width: 100%;
+    width: 1390px;
+    margin: 0 auto;
+}
+
+#naruto::after {
+    content: url(arrow.png);
+}
+
+#naruto {
+    border: none;
+}
+
+option {
+    background-color: #030303;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+.left-bar {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.btn-1 {
+    color: white;
+    border: none;
+    background-color: #101220;
+    margin-right: 25px;
+}
+
+.btn-2 {
+    padding: 20px;
+    background-color: #BFAFF2;
+    width: 175px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.Ul-list:hover .List {
+    display: block;
+    transition: 300ms ease;
+}
+
+.Ul-list {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+
+
+.List {
+    display: none;
+    transition: 300ms;
+    text-align: center;
+
+}
+
+.List {
+    padding: 10px 0;
+    background-color: #232028;
+    width: max-content;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+
+}
+
+.ul-list-li {
+    color: white;
+}
+
+.list-li {
+    width: 150px;
+
+    font-size: 18px;
+    transition: 300ms ease;
+
+}
+
+.list-li:hover {
+    background-color: #030303;
+    color: #fff;
+    transition: 300ms ease;
+
+}
+
+.card-item {
+    font-family: Outfit;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: white;
+
+}
+
+.card-text {
+    font-family: Outfit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    
+    color: white;
+
+}
+.card1{
+    width: 300px;
+    height: 161px;
+    background-color: #232028;
+    margin-top: 400px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.card1::before{
+    content: url(Gojo.png);
+    position: absolute;
+    right: 10px;
+    top: -300px;
+}
+.card2{
+    width: 300px;
+    height: 161px;
+    background-color: #232028;
+    margin-top: 400px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.card2::before{
+    content: url(Gojo\ \(1\).png);
+    position: absolute;
+    right: 10px;
+    top: -300px;
+}
+.card3{
+    width: 300px;
+    height: 161px;
+    background-color: #232028;
+    margin-top: 400px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.card3::before{
+    content: url(Gojo\ \(2\).png);
+    position: absolute;
+    right: 10px;
+    top: -300px;
+}
+.card4{
+    width: 300px;
+    height: 161px;
+    background-color: #232028;
+    margin-top: 400px;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.card4::before{
+    content: url(Gojo\ \(3\).png);
+    position: absolute;
+    right: 10px;
+    top: -300px;
+}
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0 30px 0;
+}
+.footer-list2{
+    display: flex;
+    gap: 30px;
+}
+.footer-list2 li a{
+    color: white;
+}
